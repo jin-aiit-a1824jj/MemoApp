@@ -5,7 +5,7 @@ import fontAwesome from '../../assets/fonts/fa-solid-900.ttf';
 
 import { createIconSet } from '@expo/vector-icons';
 
-const glyphMap = { pencil: '\uf303', plus: '\uf607', };
+const glyphMap = { pencil: '\uf303', plus: '\uf607', check:'\uf00c',};
 const expoAssetId = require('../../assets/fonts/fa-solid-900.ttf');
 const CustomIcon = createIconSet(glyphMap, 'FontAwesome', expoAssetId);
 
