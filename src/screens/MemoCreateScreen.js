@@ -31,6 +31,7 @@ class MemoCreateScreen extends React.Component{
                 multiline={true}
                 value={this.state.body}
                 onChangeText={(text)=>{this.setState({body: text});}}
+                underlineColorAndroid="transparent"
                 />
                 <CircleButton name="check" onPress={this.handlePress.bind(this)} />
             </View>
