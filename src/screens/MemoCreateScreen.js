@@ -14,7 +14,7 @@ class MemoCreateScreen extends React.Component{
         const db = firebase.firestore();
         db.collection(`users/${currentUser.uid}/memos`).add({
           body: this.state.body,
-          createOn: new Date(),
+          createOn: firebase.firestore.Timestamp.now(),//new Date(),
         }) 
         .then((docRef)=>{
           console.log(docRef.id);
