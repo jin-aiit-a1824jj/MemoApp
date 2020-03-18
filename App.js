@@ -56,7 +56,7 @@ if (Platform.OS === "android") {
 }
 
 const headerOption = { 
-    headerTitle: 'Memot',
+    headerTitle: 'Memott',
     headerStyle:{
       shadowColor: '#000',
       shadowOffset: { width: 0, height: 2},
