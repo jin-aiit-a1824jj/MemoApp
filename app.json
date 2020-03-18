@@ -24,7 +24,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "jp.aiit.a1824j.memot"
+    },
+    "android":{
+      "package": "jp.aiit.a1824j.memot"
     }
   }
 }
